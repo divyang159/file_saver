@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
               MaterialButton(
                   onPressed: () {
                     FileSaver()
-                        .urlFileSaver(url: controller.text, fileName: "");
+                        .urlFileSaver(url: controller.text, fileName: "cat-sample_1313.jpg");
                   },
                   child: const Text("Save file")),
             ],
