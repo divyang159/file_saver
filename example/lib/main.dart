@@ -49,8 +49,13 @@ class _MyHomePageState extends State<MyHomePage> {
               TextField(controller: controller),
               MaterialButton(
                   onPressed: () {
-                    FileSaver()
-                        .urlFileSaver(url: controller.text, fileName: "cat-sample_1313.jpg");
+                    try {
+                      FileSaver()
+                          .urlFileSaver(url: controller.text,
+                          fileName: "cat-sample_1313.jpg");
+                    } catch(e) {
+                      print(e);
+                    }
                   },
                   child: const Text("Save file")),
             ],
