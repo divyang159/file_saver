@@ -1,4 +1,4 @@
-# file_saver
+# file_downloader_flutter
 
 A Flutter package that allows you to download image/file from url.
 
@@ -17,7 +17,7 @@ dependencies:
 
 2.  Import the package
 ```dart
-import 'package:file_saver/file_saver.dart';
+import 'package:file_downloader_flutter/file_downloader_flutter.dart';
 ```
 
 
@@ -30,38 +30,6 @@ fileName: "cat-sample_1313.jpg");
 } catch(e) {
 print(e);
 }
-```
-
-
-
-## Platform specific configuration
-
-### For image Picker
-#### iOS
-* Add the following keys to your _Info.plist_ file, located in `<project root>/ios/Runner/Info.plist`:
-
-```
-    <key>NSCameraUsageDescription</key>
-    <string>Used to demonstrate image picker plugin</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>Used to capture audio for image picker plugin</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>Used to demonstrate image picker plugin</string>
-```
-
-### For voice messages
-
-#### Android
-* Change the minimum Android sdk version to 21 (or higher) in your android/app/build.gradle file.
-```
-    minSdkVersion 21
-```
-
-* Add RECORD_AUDIO permission in `AndroidManifest.xml`
-```
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 ```
 
 ## License

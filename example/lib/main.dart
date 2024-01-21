@@ -1,4 +1,4 @@
-import 'package:file_saver/file_saver.dart';
+import 'package:file_downloader_flutter/file_downloader_flutter.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
               MaterialButton(
                   onPressed: () {
                     try {
-                      FileSaver()
+                      FileDownloaderFlutter()
                           .urlFileSaver(url: controller.text,
                           fileName: "cat-sample_1313.jpg");
                     } catch(e) {

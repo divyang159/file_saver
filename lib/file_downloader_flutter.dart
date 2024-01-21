@@ -5,7 +5,7 @@ import 'package:flutter_file_dialog/flutter_file_dialog.dart';
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
 
-class FileSaver {
+class FileDownloaderFlutter {
 
   Future<String?> urlFileSaver({required String url, required String fileName}) async {
 
