@@ -4,6 +4,9 @@ A Flutter package that allows you to download image/file from url.
 
 ## Preview
 
+https://github.com/divyang159/file_saver/assets/55906611/0e63da7c-a9af-4575-b163-d1f10cc1a920
+
+
 
 ## Installing
 
