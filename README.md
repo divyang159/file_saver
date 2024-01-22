@@ -32,6 +32,21 @@ print(e);
 }
 ```
 
+## Platform specific configuration
+
+#### Android
+* Change the minimum Android sdk version to 21 (or higher) in your android/app/build.gradle file.
+```
+    minSdkVersion 21
+```
+
+* Add RECORD_AUDIO permission in `AndroidManifest.xml`
+```
+    <uses-permission android:name="android.permission.INTERNET" /> 
+```
+
+
+
 ## License
 
 ```text
