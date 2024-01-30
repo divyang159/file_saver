@@ -4,7 +4,7 @@ A Flutter package that allows you to download image/file from url.
 
 ## Preview
 
-https://github.com/divyang159/file_saver/assets/55906611/0e63da7c-a9af-4575-b163-d1f10cc1a920
+![The example app running in iOS](https://github.com/divyang159/file_saver/assets/55906611/0e63da7c-a9af-4575-b163-d1f10cc1a920)
 
 ## Installing
 
@@ -12,8 +12,9 @@ https://github.com/divyang159/file_saver/assets/55906611/0e63da7c-a9af-4575-b163
 
 ```dart
 dependencies:
-  file_saver: <latest-version>
+file_downloader_flutter: <latest-version>
 ```
+*Get the latest version in the 'Installing' tab on [pub.dev](https://pub.dev/packages/file_downloader_flutter)*
 
 2.  Import the package
 ```dart
