@@ -1,4 +1,5 @@
 import 'package:file_downloader_flutter/file_downloader_flutter.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -51,10 +52,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   onPressed: () {
                     try {
                       FileDownloaderFlutter()
-                          .urlFileSaver(url: controller.text,
-                          fileName: "cat-sample_1313.jpg");
+                          .urlFileSaver(url: controller.text);
                     } catch(e) {
-                      print(e);
+                      if(kDebugMode) {
+                        print(e);
+                      }
                     }
                   },
                   child: const Text("Save file")),
