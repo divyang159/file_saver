@@ -1,3 +1,3 @@
-## 0.0.3
+## 0.0.4
 
-* make the add file name optional.
+* Solve some issue which are reported
