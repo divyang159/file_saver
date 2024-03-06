@@ -12,7 +12,7 @@ class FileDownloaderFlutter {
 
     try {
 
-      final extension = url.split(".").last;
+      final extension = url.split(".").last.split("?").first;
 
       // Download image
       final http.Response response = await http.get(Uri.parse(url));
